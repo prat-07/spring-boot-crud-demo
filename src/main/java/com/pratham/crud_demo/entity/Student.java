@@ -7,18 +7,18 @@ import jakarta.persistence.Id;
 public class Student {
 
     @Id
-    private int id;
+    private long id;
     private String name;
     private String email;
     private int age;
     private int rollNo;
     private String subject;
 
-    public int getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(int id) {
+    public void setId(long id) {
         this.id = id;
     }
 
